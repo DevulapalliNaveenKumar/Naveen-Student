@@ -25,6 +25,7 @@ public class BubbleStudentSorter implements StudentSorter {
             return students;
         }
 
+        // ekfkgek
         for (int i = 0; i < students.size() - 1; i++) {
             for (int j = 0; j < students.size() - i - 1; j++) {
                 if (students.get(j).performance() > students.get(j + 1).performance()) {
